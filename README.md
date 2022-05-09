@@ -1,7 +1,5 @@
 # Nginx Proxy docker-compose config
 
-> This project was developed as part of my work with [VibroBox](https://github.com/vibrobox).
-
 If you are looking for a ready-made solution for combining [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy)
 with `nginx`, which supports `brotli` compression module and automatically management of Let's Encrypt
 certificates, so you are in the right place. In this repository, you can find the ready-made 
@@ -35,7 +33,7 @@ docker network create nginx-proxy
 Then you should clone this repository in any convenient place and go to its folder:
 
 ```sh
-git clone https://github.com/erickskrauch/docker-compose-nginx-proxy.git nginx-proxy
+git clone https://github.com/lonagi/docker-compose-nginx-proxy.git nginx-proxy
 cd nginx-proxy
 ```
 
